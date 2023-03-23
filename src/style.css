@@ -1,0 +1,94 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav {
+    height: 70px;
+    display: flex;
+    padding: 20px 36px;
+    box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.gray {
+    color: #918E9B;
+}
+
+.nav--logo {
+    max-width: 100px;
+}
+
+section {
+    padding: 20px;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    
+}
+.hero--image{
+    width: 80%;
+    margin: 0 auto;
+    height: 50%;
+    max-width: 600px;
+}
+
+.hero--photo {
+    object-fit: cover;
+    width: 100%;
+    align-self: center;
+
+}
+
+.hero--header {
+    margin-bottom: 16px;
+}
+
+.hero--text {
+    margin-top: 0;
+}
+
+.card {
+    aspect-ratio: 16/6;
+    font-size: 12px;
+    border-radius: 40px;
+    padding: 10px;
+    
+}
+.image{
+    border-radius: 10px;
+    object-fit: cover;
+    width: 100%;
+}
+.card--image {
+    width: 100%;
+}
+
+.card--stats {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.card--star {
+    height: 12px;
+}
+.cards{
+    max-width: 700px;
+    width: 90%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3 , auto);
+    border-radius: 10px;
+    margin-top: 10px;
+    padding: 10px;
+}
